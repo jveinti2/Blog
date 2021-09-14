@@ -32,7 +32,7 @@ header .header-icons-container {
   height: 50px;
   display: -ms-grid;
   display: grid;
-  background-color: #47cfac;
+  background-color: #01011b;
 }
 header .header-icons-container .icons {
   width: 300px;
@@ -60,12 +60,13 @@ header nav {
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   height: 90px;
+  background-color: #57b2e8;
 }
 header nav .nav-logo-container {
   margin-left: 50px;
 }
 header nav .nav-logo-container img {
-  width: 70px;
+  width: 80px;
   margin-top: 3px;
 }
 header nav .profile-link {
@@ -81,6 +82,27 @@ header nav .profile-link {
   margin-right: 50px;
 }
 header nav .profile-link a {
+  padding: 4px;
   color: black;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+main {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  grid-auto-rows: 1fr 1fr 1fr;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+main h1 {
+  color: white;
+  position: absolute;
+  margin: 10px auto;
+}
+main img {
+  width: 100%;
+  height: 100vh;
 }

@@ -1,0 +1,22 @@
+main {
+    position: relative;
+    display: grid;
+    grid-auto-rows: 1fr 1fr 1fr;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+
+    h1 {
+        color: white;
+        position: absolute;
+        margin: 10px auto;
+
+
+        
+    }
+
+    img {
+        width: 100%;
+        height: 100vh;
+    }
+}
