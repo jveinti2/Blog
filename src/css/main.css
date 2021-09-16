@@ -82,6 +82,7 @@ header nav .profile-link {
   margin-right: 50px;
 }
 header nav .profile-link a {
+  font-family: "Poppins", sans-serif;
   padding: 4px;
   color: black;
   border: 1px solid black;
@@ -89,18 +90,22 @@ header nav .profile-link a {
 }
 
 main {
-  position: relative;
-  display: -ms-grid;
-  display: grid;
-  grid-auto-rows: 1fr 1fr 1fr;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 main h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
   color: white;
   position: absolute;
-  margin: 10px auto;
+  margin: 45%;
+  margin-top: 20%;
 }
 main img {
   width: 100%;
