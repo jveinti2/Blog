@@ -89,25 +89,48 @@ header nav .profile-link a {
   border-radius: 3px;
 }
 
-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  height: 100vh;
+.home-main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
+  height: 100%;
+  background-image: url(/src/assets/img/fondo_home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-main section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  justify-items: center;
+  height: 350px;
+  margin-top: 80px;
+}
+.home-main section .home-main-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 700px;
+  letter-spacing: 10px;
+  color: white;
+  text-align: center;
+}
+.home-main .home-main-button {
+  width: 140px;
+  height: 50px;
+  background: #57b2e8;
+  display: -ms-grid;
+  display: grid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: none;
+  border-radius: 5px;
 }
-main h1 {
+.home-main .home-main-button a {
+  font-weight: 700;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
-  font-size: 60px;
-  color: white;
-  position: absolute;
-  margin: 45%;
-  margin-top: 20%;
-}
-main img {
-  width: 100%;
-  height: 100vh;
 }

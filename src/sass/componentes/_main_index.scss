@@ -1,23 +1,39 @@
-main {
-    display: flex;
-    width: 100%;
-    height: 100vh;
-    align-items: center;
-    
-    h1 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 60px;
-        color: white;
-        position: absolute;
-        margin: 45%;
-        margin-top: 20%;
+.home-main {
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        height: 100%;
+        background-image: url(/src/assets/img/fondo_home.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        section {
+            display: grid;
+            grid-column: 2;
+            justify-items: center;
+            height: 350px;
+            margin-top: 80px;
+        }
+        section .home-main-text {
+            font-family: 'Poppins', sans-serif;
+            font-size: 30px;
+            font-weight: 700px;
+            letter-spacing: 10px;
+            color:white;
+            text-align: center;
+        }
+        .home-main-button {
+            width: 140px;
+            height: 50px;
+            background: #57b2e8;
+            display: grid;
+            align-items: center;
+            border: none;
+            border-radius: 5px;
+            a {
+                font-weight: 700;
+                font-size: 18px;
+                font-family: 'Poppins', sans-serif;
+            }
+        }
 
-
-        
     }
-
-    img {
-        width: 100%;
-        height: 100vh;
-    }
-}
