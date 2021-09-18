@@ -1,3 +1,10 @@
+.home-body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
 .home-main {
         display: grid;
         grid-template-columns: 1fr 4fr 1fr;
@@ -14,8 +21,8 @@
             margin-top: 80px;
         }
         section .home-main-text {
-            font-family: 'Poppins', sans-serif;
-            font-size: 30px;
+            font-family: 'Permanent Marker', cursive;
+            font-size: 50px;
             font-weight: 700px;
             letter-spacing: 10px;
             color:white;
