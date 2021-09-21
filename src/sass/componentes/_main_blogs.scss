@@ -25,7 +25,34 @@
         p {
             margin-bottom: 35px;
         }
+        
     }
+    .blogs-posts-container {
+        padding: 0 50px 40px;
+        h3 {
+            border-bottom: 3px solid #e6e9ed;
+            padding-bottom: 20px;
+            text-align: center;
+        }       
+        
+        .post-container {
+            display: inline-block;
+            padding-left: 10px;
+            max-width: 30%;
+            margin-bottom: 50px;
+            p {
+                margin-bottom: 35px;
+            }   
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
 
 
+.blogs-button {
+    border: 1px solid #57b2e8;
+    padding: 10px 15px;
+    font-size: 12px;;
 }

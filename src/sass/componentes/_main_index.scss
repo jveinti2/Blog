@@ -27,6 +27,7 @@
             letter-spacing: 10px;
             color:white;
             text-align: center;
+            
         }
         .home-main-button {
             width: 140px;
@@ -36,11 +37,14 @@
             align-items: center;
             border: none;
             border-radius: 5px;
+            
+        }
+
+    
             a {
                 font-weight: 700;
                 font-size: 18px;
                 font-family: 'Poppins', sans-serif;
-            }
-        }
-
+                }
+            
     }
