@@ -138,6 +138,17 @@ header nav .profile-link a {
   font-family: "Poppins", sans-serif;
 }
 
+.blogs-button {
+  border: 1px solid #57b2e8;
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.grid-container {
+  max-width: 980px;
+  margin: auto;
+}
+
 .blogs-main {
   display: -ms-grid;
   display: grid;
@@ -195,10 +206,4 @@ header nav .profile-link a {
 }
 .blogs-main .blogs-posts-container .post-container img {
   width: 100%;
-}
-
-.blogs-button {
-  border: 1px solid #57b2e8;
-  padding: 10px 15px;
-  font-size: 12px;
 }
